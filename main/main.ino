@@ -223,22 +223,6 @@ float sign(float x)
   return x;
 }
 
-/* Check */
-//void Check()
-//{
-//  num++;
-//  if(num >= 1500)
-//  {
-//    num = 0;
-//    // Set theta_A to zero
-//    if(theta_A == pre_1500_theta_A)
-//    {
-//      Position_target = theta_A;   
-//    }
-//    pre_1500_theta_A = theta_A;
-//  }    
-//}
-
 /* Output */
 // Print ( loop 20 times print ince )
 void Print(){
