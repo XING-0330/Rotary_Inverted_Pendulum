@@ -95,8 +95,7 @@ void loop()
       output_1 = Circle_angle(180);
       VM_pwm = output_1 - output_2;  
       motorA.drive(VM_pwm,1);
-    }
-//    Check(); 
+    } 
   }
 
   // Safety setting
@@ -118,6 +117,7 @@ void routine(){
 
   Energy_calculate();
 }
+
 /* Angle calculate */
 // Motor_A
 void interrupt_change_A(){
