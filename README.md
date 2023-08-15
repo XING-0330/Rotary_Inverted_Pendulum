@@ -11,19 +11,19 @@ Project_1 旋轉倒單擺
 ### 模型
 本人使用 **Fusion360** 進行 3D 模型繪製，如下圖所示:
 
-![]([https://hackmd.io/_uploads/Bynvokdhh.png](https://github.com/XING-0330/Rotary_Inverted_Pendulum/blob/main/IMG/pendulum_3D_model.png))
+![image](https://github.com/XING-0330/Rotary_Inverted_Pendulum/blob/main/IMG/pendulum_3D_model.png)
 
 透過左下方的馬達利用皮帶帶動搖臂進行旋轉，進而帶動右方單擺甩起。在左上方有加了一個和編碼器差不多重量的金屬同步輪作為配重，經過測試證實可以有效降低旋轉時的慣性。
 
 ### 電路
 ==詳細電路圖待補充==
 
-![]([https://hackmd.io/_uploads/ryVRxxd3n.png](https://github.com/XING-0330/Rotary_Inverted_Pendulum/blob/main/IMG/electric.jpg))
+![image](https://github.com/XING-0330/Rotary_Inverted_Pendulum/blob/main/IMG/electric.jpg)
 
 ### 組裝
 所繪製的模型和其他零件及電路部分皆可在 `Hardware` 中找到，最終組裝後的結果如下:
 
-![]([https://hackmd.io/_uploads/SkjrRJd33.png](https://github.com/XING-0330/Rotary_Inverted_Pendulum/blob/main/IMG/real%20model.jpg))
+![image](https://github.com/XING-0330/Rotary_Inverted_Pendulum/blob/main/IMG/real%20model.jpg)
 
 >自己覺得比較要注意的零件是編碼器和下方的旋轉盤，上方角度建議使用絕對式編碼器，而下方馬達所使用的則是推薦使用增量式編碼器，而下方旋轉盤是為了防止線會捲在一起。
 
