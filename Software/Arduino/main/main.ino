@@ -122,17 +122,7 @@ void routine(){
 // Motor_A
 void interrupt_change_A(){
 
-  int temp_a = digitalRead(ENCODER_A_PIN);
-  int temp_b = digitalRead(ENCODER_B_PIN);
-
-  if (temp_a == temp_b)
-  {
-    pulse_A--; 
-  } 
-  else 
-  {
-    pulse_A++;
-  }
+  (digitalRead(ENCODER_A_PIN) == digitalRead(ENCODER_B_PIN)) ? --pulse_A : ++pulse_A;
   angle_A();
 }
 
