@@ -60,17 +60,17 @@ Matlab 模擬
 
     **反向速度計算公式**
 
-    ![image](IMG/fomula1.png)
+    ![image](IMG/formula1.png)
 
     **積攢能量計算公式**
 
-    ![image](IMG/fomula2.png)
+    ![image](IMG/formula2.png)
 
 ### 整體架構
 
 根據單擺的角度去切換使用平衡控制器及甩上控制器，整體控制方塊圖如下
 
-![image](IMG\整體架構.png)
+![image](IMG/整體架構.png)
 
 參考資料
 ---
