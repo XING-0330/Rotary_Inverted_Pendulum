@@ -1,7 +1,6 @@
 Project_1 旋轉倒單擺
 ===
-內容還需補充
-影片: https://youtube.com/shorts/ecyUvNsTMwk
+影片: [https://youtube.com/shorts/ecyUvNsTMwk](https://youtu.be/7YaTq_cNlhs)
 
 介紹
 ---
@@ -17,8 +16,7 @@ Project_1 旋轉倒單擺
 透過左下方的馬達利用皮帶帶動搖臂進行旋轉，進而帶動右方單擺甩起。在左上方有加了一個和編碼器差不多重量的金屬同步輪作為配重，經過測試證實可以有效降低旋轉時的慣性。
 
 ### 電路
-==詳細電路圖待補充==
-
+使用 arduino mega 2560 搭配 TB6612FNG 直流馬達驅動版進行控制
 ![image](IMG/electric.jpg)
 
 ### 組裝
@@ -41,7 +39,7 @@ Matlab 模擬
 
 [1]:<https://www.youtube.com/watch?v=pDiwAA1cnb0&t=0s>
 
-有了 simscape 讓我們可以很方便的進行控制器的設計。==模擬檔案還要進一步修改==
+有了 simscape 讓我們可以很方便的進行控制器的設計。
 
 
 
